@@ -1,0 +1,48 @@
+import 'package:flutter/material.dart';
+// Lista de colores para los botones de la calculadora
+  const colors = [
+    Color.fromARGB(255, 209, 86, 127),
+    Color.fromARGB(255, 209, 86, 127),
+    Color.fromARGB(255, 209, 86, 127),
+    Color.fromARGB(255, 196, 68, 247),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 196, 68, 247),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 196, 68, 247),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 196, 68, 247),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 196, 68, 247),
+  ];
+
+  // Lista de widgets que representan los botones
+  const controllers = [
+    Text("AC", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("()", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("%", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("÷", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("7", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("8", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("9", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("x", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("4", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("5", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("6", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("-", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("1", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("2", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("3", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text("+", style: TextStyle(color: Colors.white, fontSize: 28, fontWeight: FontWeight.w700)),
+    Text(".", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700)),
+    Text("0", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700)),
+    Icon(Icons.backspace_rounded, color: Colors.white),
+    Text("=", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700)),
+  ];
